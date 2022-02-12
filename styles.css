@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+#note {
+    height: 70vh;
+    width: 50vh;
+    border: black 1px solid;
+    margin-top: 5px;
+    border-radius: 20px;
+    overflow: auto;
+    background-color: papayawhip;
+
+
+}
+
+h2 {
+    word-break:break-all;
+}
+
+li {
+    font-size: 2rem;
+    width: 95%;
+    height: 2.4rem auto;
+    border-bottom: paleturquoise 1px solid;
+    margin: 3px;
+    margin-left: 2vh;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#alert {
+    cursor: pointer;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+
+input[type=text] {
+    background-color: rgb(196, 184, 166);
+}
+
+input[type=text]:focus {
+    background-color: rgb(247, 238, 225);
+}
+
+  .input-group-text {
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 1px;
+    width: 80px;
+    color: #ffffff;
+    background-color: #36a2eb;
+    font-family: Phantomsans, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+      cursor: pointer;
+  }
+
+
+  input[type=checkbox] {
+      margin: 15px;
+  }
+
+
+
+
+
+
+
+
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
