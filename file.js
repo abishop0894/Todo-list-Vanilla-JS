@@ -27,6 +27,7 @@ let word = () => {
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
+   document.getElementById("val").value = "";
 });
 
 function identity(el, element) {
